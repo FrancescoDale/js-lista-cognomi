@@ -3,3 +3,5 @@ var surnamesDbase = ['Rossi', 'Mattei', 'Paolucci', 'Campagna', 'Giambattista', 
 var inputSurname = prompt('Digita qui il tuo cognome : ');
 
 surnamesDbase.push(inputSurname);
+
+surnamesDbase.sort();
