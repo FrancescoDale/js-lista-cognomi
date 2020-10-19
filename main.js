@@ -11,3 +11,5 @@ console.log(surnamesDbase);
 var indexPosition;
 
 indexPosition = surnamesDbase.indexOf(inputSurname);
+
+console.log(' il cognome inserito si trova nella posizione' + indexPosition );
