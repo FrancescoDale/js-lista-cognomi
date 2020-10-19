@@ -1,6 +1,6 @@
 var surnamesDbase = ['Rossi', 'Mattei', 'Paolucci', 'Campagna', 'Giambattista', 'Simone', 'Esposito'];
 
-var inputSurname = prompt('Digita qui il tuo cognome : ');
+var inputSurname = prompt('Digita qui il tuo cognome ( iniziale maiuscola ) : ');
 
 surnamesDbase.push(inputSurname);
 
@@ -12,4 +12,6 @@ var indexPosition;
 
 indexPosition = surnamesDbase.indexOf(inputSurname);
 
-console.log(' il cognome inserito si trova nella posizione' + indexPosition );
+var position = indexPosition + 1;
+
+console.log(' il cognome inserito si trova nella posizione   ' + position );
