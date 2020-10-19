@@ -7,3 +7,7 @@ surnamesDbase.push(inputSurname);
 surnamesDbase.sort();
 
 console.log(surnamesDbase);
+
+var indexPosition;
+
+indexPosition = surnamesDbase.indexOf(inputSurname);
